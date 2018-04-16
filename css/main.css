@@ -1,0 +1,278 @@
+/* https://github.com/Irenebode/irenebode.github.io/css/main.css
+   Main | 2018.03.11 17:19
+   License: MIT License
+*/
+
+@font-face {
+  font-family: NanumSquareRoundR;
+  src: url(../font/NanumSquareRoundR.ttf);
+}
+
+@font-face {
+  font-family: NanumSquareRoundEB;
+  src: url(../font/NanumSquareRoundEB.ttf);
+}
+
+@font-face {
+  font-family: NotoSans-Light;
+  src: url(../font/NotoSans-Light.ttf);
+}
+
+body {
+  font-family: NotoSans-Light;
+  font-size: 1em;
+  background-image: url('../images/background/background.jpg');
+  background-size: cover;
+  height: 2693px;
+}
+
+header {
+  text-align: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #747474;
+  margin: 3em;
+  display: inline-block;
+}
+
+main {
+  width: 100%;
+  height: 2200px;
+}
+
+header, main {
+  margin-bottom: 0.8em;
+}
+
+#web-info {
+  float: left;
+  left: 33%;
+  transform: translateX(-33%);
+  position: absolute;
+  width: 27%;
+}
+
+#web-info h1 {
+  font-family: NanumSquareRoundR;
+  font-size: 3.4em;
+  margin-top: 0.3em;
+  margin-bottom: 1.5em;
+}
+
+#web-info .name {
+  font-family: NanumSquareRoundEB;
+  background: -webkit-linear-gradient(bottom right, #3545d9, #ba1186);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#web-info h3 {
+  font-family: NanumSquareRoundR;
+  font-size: 1.8em;
+  margin-bottom: 0.7em;
+}
+
+#web-info h6 {
+  font-size: 0.8em;
+  margin-bottom: 2em;
+  color: #747474;
+  padding-bottom: 1em;
+}
+
+#web-info #date {
+  font-family: NanumSquareRoundEB;
+  font-size: 2.97em;
+}
+
+#intro {
+  display: inline-block;
+  transform: translateX(27%) translateY(150%);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+#intro h2 {
+  font-family: NanumSquareRoundEB;
+  font-size: 2.8em;
+  background: -webkit-linear-gradient(bottom right, #3545d9, #ba1186);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0.5em 12em 1em 0;
+}
+
+.slider {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.slider .slide-item {
+  margin-right: 1em;
+  cursor: pointer;
+  color: #666;
+  font-size: 1.5em;
+}
+
+.slider .slide-item:hover {
+  color: #444;
+  transform: scale(1.1);
+  transition: all .3s ease;
+}
+
+.item {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.075);
+  transition: all 0.2s ease;
+  width: 50%;
+  color: #000;
+}
+
+.item:hover {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+}
+
+#intro img {
+  border-radius: 3.5em;
+}
+
+#typical-project {
+  display: inline-block;
+  position: absolute;
+  transform: translateY(105%);
+}
+
+#typical-project h2 {
+  font-family: NanumSquareRoundEB;
+  font-size: 2.8em;
+  background: -webkit-linear-gradient(bottom right, #3545d9, #ba1186);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateX(16%);
+  margin: 0.05em 0 4em 0;
+}
+
+#typical-project .wrap {
+  width: 50%;
+  transform: translateX(120%);
+}
+
+#typical-project .wrap .row {
+  display: flex;
+  margin-top: 2em;
+}
+
+#typical-project .wrap .row:first-child {
+  margin-top: 0;
+}
+
+#typical-project h4 {
+  font-family: NanumSquareRoundEB;
+  font-size: 1em;
+  color: #000;
+  margin-bottom: 0.5em;
+}
+
+#typical-project h6 {
+  font-family: NanumSquareRoundR;
+  font-size: 0.8em;
+  color: #747474;
+}
+
+#typical-project img {
+  transform: scale(0.8);
+}
+
+#typical-project span {
+  padding: 1.8em 1.8em 1.5em 1.8em;
+}
+
+#thanks {
+  display: inline-block;
+  position: absolute;
+  transform: translateX(16%) translateY(448%);
+}
+
+#thanks div {
+  display: flex;
+}
+
+#thanks h2 {
+  font-family: NanumSquareRoundEB;
+  font-size: 2.8em;
+  background: -webkit-linear-gradient(bottom right, #3545d9, #ba1186);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2em;
+}
+
+#thanks h6 {
+  font-family: NanumSquareRoundR;
+  font-size: 1em;
+  color: #747474;
+  margin-right: 5em;
+  width: 50%;
+}
+
+#thanks span {
+  font-family: NanumSquareRoundR;
+  font-size: 1em;
+  color: #234bf9;
+  text-align: center;
+}
+
+#thanks img {
+  border-radius: 3.5em;
+}
+
+footer {
+  display: inline-block;
+  position: relative;
+  background-color: #dfd7fe;
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #143a78;
+  transition: all 0.2s ease;
+  transform: scale(1.5);
+}
+
+footer .logo {
+  font-size: 3em;
+  padding: 2em 0 1em 0;
+}
+
+footer .logo a {
+  color: #000;
+  font-family: NanumSquareRoundEB;
+}
+
+footer .social a {
+  font-size: 2.6em;
+  margin-right: 1em;
+}
+
+footer .social a:last-child {
+  margin-right: 0;
+}
+
+footer .social a:hover {
+  color: #143a78;
+  transform: scale(1.1);
+}
+
+footer .copyright {
+  background-color: #143a78;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  color: #fff;
+  margin-top: 4.5em;
+  padding: 2.5em;
+}
